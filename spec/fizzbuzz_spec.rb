@@ -8,8 +8,9 @@ describe "fizzbuzz" do
     expect(fizzbuzz(9)).to eq 'fizz'
   end
 
-  it "returns 'buzz' when passed 5" do
+  it "returns 'buzz' when passed multiples of 5" do
     expect(fizzbuzz(5)).to eq 'buzz'
+    expect(fizzbuzz(10)).to eq 'buzz'
   end 
 end
 
